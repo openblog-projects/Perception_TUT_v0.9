@@ -13,12 +13,11 @@ public class MyLightRandomizer : Randomizer
     protected override void OnIterationStart()
     {
         var tags = tagManager.Query<MyLightRandomizerTag>();
-
         foreach (var tag in tags)
         {
-            var light = tag.GetComponent<Light>();            
-            light.intensity = lightIntensityParameter.Sample();
-            light.color = lightColorParameter.Sample();            
+            var light = tag.GetComponent<Light>();                      
+            light.color = lightColorParameter.Sample();                      
+            tag.SetIntensity(lightIntensityParameter.Sample());
         }
     }
 }
