@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-38001
+38267
 Successfully changed project path to: /home/b1/synthData/Perception_TUT_v0.9/Perception T_v0.9
 /home/b1/synthData/Perception_TUT_v0.9/Perception T_v0.9
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 331,01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 154,94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -33,105 +33,105 @@ objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_sh
 od GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_
 buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_te
 xture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.2 graphics device ; Context level  <OpenGL 4.2> ; Context handle 1480888832
+OPENGL LOG: Creating OpenGL 4.2 graphics device ; Context level  <OpenGL 4.2> ; Context handle 1606790144
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56079
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,004967 seconds.
+Registered in 0,002560 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 170,27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95,37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4,411 seconds
+- Completed reload, in  2,071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4417ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (2071ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1524ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (522ms)
+			SetupTypeCache (259ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (724ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (170ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (434ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,018243 seconds.
+Registered in 0,008240 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 191,38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118,47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7,294 seconds
+- Completed reload, in  3,214 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7298ms)
-		BeginReloadAssembly (579ms)
+	ReloadAssembly (3215ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (6323ms)
-			LoadAssemblies (371ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2943ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1369ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (230ms)
-			SetupLoadedEditorAssemblies (3998ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1986ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (191ms)
-				BeforeProcessingInitializeOnLoad (262ms)
-				ProcessInitializeOnLoadAttributes (3366ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (1630ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1,73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0,92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139,8 MB.
-System memory in use after: 139,8 MB.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140,4 MB.
+System memory in use after: 140,5 MB.
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3686.
-Total: 27,986164 ms (FindLiveObjects: 0,869774 ms CreateObjectMapping: 0,422577 ms MarkObjects: 25,939589 ms  DeleteObjects: 0,750768 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3690.
+Total: 13,785307 ms (FindLiveObjects: 0,643422 ms CreateObjectMapping: 0,409796 ms MarkObjects: 11,929389 ms  DeleteObjects: 0,798197 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -144,292 +144,1378 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Settings/ForwardRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf95242464b0f1307a08bc2392aaaa') in 0,072086 seconds 
-  Import took 0,090140 seconds .
+  path: Assets/TutorialIdLabelConfig.asset
+  artifactKey: Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialIdLabelConfig.asset using Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae2e8f0b7e0408f8b18e541812f37bf') in 0,023938 seconds 
+  Import took 0,033931 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,019753 seconds.
-  path: Assets/Settings/ForwardRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf95242464b0f1307a08bc2392aaaa') in 0,004259 seconds 
+  Time since last request: 0,000470 seconds.
+  path: Assets/TutorialSemanticSegmentationLabelConfig.asset
+  artifactKey: Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialSemanticSegmentationLabelConfig.asset using Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6bd4823ffc770a75e61cb1e08b48ef') in 0,005387 seconds 
+  Import took 0,017687 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5,493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5493ms)
+		BeginReloadAssembly (3745ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1653ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (600ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132,2 MB.
+System memory in use after: 132,3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3694.
+Total: 13,665729 ms (FindLiveObjects: 0,685747 ms CreateObjectMapping: 0,399236 ms MarkObjects: 12,191475 ms  DeleteObjects: 0,385601 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 295,389498 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee2be1832f5d616f9cdf96b84ee141') in 0,278713 seconds 
+  Import took 0,288933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000472 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1a68f0db120720427d99e1a7fd5042') in 0,010761 seconds 
+  Import took 0,018458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000259 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed8ed6972e9461edda96b3b97404436') in 0,011223 seconds 
+  Import took 0,018761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000301 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1704e2b86b28b21f094080d4ed4dd7f9') in 0,011520 seconds 
+  Import took 0,019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000332 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c494aea38e70dd314ebc5da174b4979') in 0,011438 seconds 
+  Import took 0,020511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000265 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214c801005e9c8e61461b6921c6a97b6') in 0,010811 seconds 
+  Import took 0,021811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000256 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a339a5a927e5647009d45dac146d51a1') in 0,014345 seconds 
+  Import took 0,024977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000282 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb23bdab6d01983cbb52ba2fbee8c39e') in 0,014920 seconds 
+  Import took 0,026578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000243 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b2b65ad53784bada525435b759205') in 0,014322 seconds 
+  Import took 0,025778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000216 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8c5fe09eb51a3c76ad7c7aae90e410') in 0,010587 seconds 
+  Import took 0,019239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46,152705 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f8137794aa3e81692fd4f72f41983') in 0,016686 seconds 
+  Import took 0,026151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000232 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e024fee50f17a7a359682e69967b3c05') in 0,011504 seconds 
+  Import took 0,018852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000280 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f8137794aa3e81692fd4f72f41983') in 0,009767 seconds 
+  Import took 0,017255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000266 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cda7318aaa3d28454a335ca57fae2c5') in 0,011126 seconds 
+  Import took 0,018366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000283 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab9efdc4c34c7476923b7c37930df7') in 0,060645 seconds 
+  Import took 0,068879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000295 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cca0761138036cce290f4be64c780c') in 0,011279 seconds 
+  Import took 0,019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000270 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c087b4317e0a96cad67cbf9bfcf95') in 0,011687 seconds 
+  Import took 0,019456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000267 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530be3f8a6763c077496bf0af9c5f54c') in 0,010291 seconds 
+  Import took 0,018540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000284 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a850f5ad30c1aa4b382a7b00dbdfacaa') in 0,011211 seconds 
+  Import took 0,019017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000283 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b41715d3e17dcff890fde451b0c21e6') in 0,011035 seconds 
+  Import took 0,018746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000323 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c1ea6718b031c96fa283948d1934e9') in 0,014131 seconds 
+  Import took 0,022529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29,986285 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16ca0c367dbf56c0d287b7231c92a3') in 0,017365 seconds 
+  Import took 0,028791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e6344ce662392dd8358ccde2dc44a4') in 0,014876 seconds 
+  Import took 0,026717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000216 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32650f8d4d557d2dc745cee2701ed075') in 0,015378 seconds 
   Import took 0,026538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 126,609633 seconds.
-  path: Assets/Scenes/TutorialScene.unity
-  artifactKey: Guid(9224f30be01ef899a95a61e593087e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialScene.unity using Guid(9224f30be01ef899a95a61e593087e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65a5c7c28101cb38a22324e76fe8fae') in 0,002333 seconds 
-  Import took 0,011812 seconds .
+  Time since last request: 0,000217 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a332a7193407de5d57aac5f0d6d7f8fb') in 0,084932 seconds 
+  Import took 0,092749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10,536355 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0,002125 seconds 
-  Import took 0,015305 seconds .
+  Time since last request: 0,000211 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c150b77350b400bd6b175edb9337049') in 0,012313 seconds 
+  Import took 0,022642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25,663035 seconds.
-  path: Assets/Scenes/SampleSceneLightingSettings.lighting
-  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26a52e718306fba651ad1c5ff177c0') in 0,001658 seconds 
-  Import took 0,012637 seconds .
+  Time since last request: 0,000250 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc568562753c8c637b684f13fa1e813') in 0,015446 seconds 
+  Import took 0,028112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,018019 seconds.
-  path: Assets/Scenes/SampleSceneLightingSettings.lighting
-  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26a52e718306fba651ad1c5ff177c0') in 0,001583 seconds 
-  Import took 0,009198 seconds .
+  Time since last request: 0,000255 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eccbc0d52c13a3b2f1a79e9dabf193') in 0,015213 seconds 
+  Import took 0,027250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 166,315877 seconds.
-  path: Assets/TutorialIdLabelConfig.asset
-  artifactKey: Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialIdLabelConfig.asset using Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caae004edff566f080f24ae010733b6b') in 0,005137 seconds 
-  Import took 0,017154 seconds .
+  Time since last request: 0,000242 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d877761c25d70e339e8316e777d25c') in 0,015119 seconds 
+  Import took 0,026657 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,015104 seconds.
-  path: Assets/TutorialIdLabelConfig.asset
-  artifactKey: Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialIdLabelConfig.asset using Guid(9de61a3c57e66000c8a966d4ca152447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caae004edff566f080f24ae010733b6b') in 0,001634 seconds 
-  Import took 0,011433 seconds .
+  Time since last request: 0,000250 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41684580be4921b5f5561f384d40f7e9') in 0,014670 seconds 
+  Import took 0,025285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23,482080 seconds.
-  path: Assets/TutorialSemanticSegmentationLabelConfig.asset
-  artifactKey: Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialSemanticSegmentationLabelConfig.asset using Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e056dd626b9d606fee640c2c93cd9041') in 0,005723 seconds 
-  Import took 0,013519 seconds .
+  Time since last request: 0,000251 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3af22351c2bc451fd333a4191e41ea0') in 0,014334 seconds 
+  Import took 0,025012 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,007064 seconds.
-  path: Assets/TutorialSemanticSegmentationLabelConfig.asset
-  artifactKey: Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialSemanticSegmentationLabelConfig.asset using Guid(c3e66048e3d5706e9925113126091a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e056dd626b9d606fee640c2c93cd9041') in 0,003375 seconds 
-  Import took 0,012075 seconds .
+  Time since last request: 8,349500 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f980800b6f30f0dca95d5bb47ce325') in 0,015329 seconds 
+  Import took 0,027418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 137,618800 seconds.
+  Time since last request: 0,000239 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118056f30521b526076aab01b9f995f') in 0,015469 seconds 
+  Import took 0,026387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000234 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33bd5a45409831405eec11db3ecce05') in 0,014598 seconds 
+  Import took 0,025623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000239 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300f36a313f1daf6fbb1a90909290962') in 0,082117 seconds 
+  Import took 0,094328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000434 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54b922e8a086f9e4fb82ae2499efbf') in 0,011128 seconds 
+  Import took 0,020400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000321 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2208da1bb540b89d043eb00c87af8109') in 0,010484 seconds 
+  Import took 0,017704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000216 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9596ff9f081cd51dd4c180de54109587') in 0,014385 seconds 
+  Import took 0,025579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000444 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca2f27f0f11a7a9b3bfc750e9ca44c2') in 0,010529 seconds 
+  Import took 0,020120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000278 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23af91558ac0ee082d58b000c44ca550') in 0,011160 seconds 
+  Import took 0,018904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000304 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8e4e467535b4a86615fe3776cbc563') in 0,011345 seconds 
+  Import took 0,018308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64,808907 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18d0ca3479fff3e27e10a33b23a9de') in 0,012881 seconds 
+  Import took 0,022871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000271 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75dc2d976b469a144b1b05407fd7e5c') in 0,011504 seconds 
+  Import took 0,018945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000251 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e34bef646c05b3237f93e261eeee4c6') in 0,011861 seconds 
+  Import took 0,020123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000227 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd1a6442049efc49acdfc9483953017') in 0,013725 seconds 
+  Import took 0,023623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000276 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34ec3f30afb7187ef99522e591f32d3') in 0,018153 seconds 
+  Import took 0,027747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000221 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d129b6fc7b2dbe1970e2e609e05f90c') in 0,011436 seconds 
+  Import took 0,019844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000225 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e57ef9b43d2d71343e29190ee11b44') in 0,010770 seconds 
+  Import took 0,018967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,291148 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f79db9627b2d78ec7364f1d7262b51') in 0,013077 seconds 
+  Import took 0,023084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000276 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99ab222daf5b6f731a621298b2933ea') in 0,011093 seconds 
+  Import took 0,018322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000248 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3405799b7daaae4713bd7265f363ab') in 0,010941 seconds 
+  Import took 0,018726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000297 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabb707c8d2c650ec69d981e32e1496') in 0,011972 seconds 
+  Import took 0,020244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000234 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6600584041f2aff153a10d0a25b396fd') in 0,015414 seconds 
+  Import took 0,025172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000249 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422a55157143c6f82d80191c06be5562') in 0,015437 seconds 
+  Import took 0,023409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16882d5f8b08a10458b4d468fa3e2098') in 0,013047 seconds 
+  Import took 0,022182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000202 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb852d24837ba0aff2a8d07b09f2dc') in 0,012317 seconds 
+  Import took 0,020040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000197 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0494eaeef193526035ee049e093c2c3') in 0,011929 seconds 
+  Import took 0,020560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000601 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081303c13bda6ab8cb20c5d730eb760a') in 0,011964 seconds 
+  Import took 0,021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,644843 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aefe99327948e395b93ec6842b4a00d') in 0,013954 seconds 
+  Import took 0,022340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000262 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767fe0314f9936e310f685e3020021c9') in 0,010551 seconds 
+  Import took 0,017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000258 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bca6e59110bdc0134a7b6f52bd3337') in 0,010638 seconds 
+  Import took 0,018783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000213 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521d2017c81ff8feea07210f443a8d2d') in 0,010968 seconds 
+  Import took 0,020035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000237 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed80c29d12517bf2d365f7c294caa789') in 0,014442 seconds 
+  Import took 0,026491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000256 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536fda7d93ca0e4c8258e196aa7421f3') in 0,012141 seconds 
+  Import took 0,020317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000275 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b11407da17800203577df7e319489fe') in 0,011484 seconds 
+  Import took 0,019928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000258 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fc7e09055daca605b2d2c7e94f92e1') in 0,011910 seconds 
+  Import took 0,021253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000353 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60967b2426ec6fed3467dc3a971b64c') in 0,014741 seconds 
+  Import took 0,024792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000209 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a286b086b8d129b7279dffe3769b5f0') in 0,012197 seconds 
+  Import took 0,022931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,315718 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d32450a605e9dadceb973e9cd4f413b') in 0,014425 seconds 
+  Import took 0,026473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000247 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c05d861e3fa756752259181d68b20') in 0,013444 seconds 
+  Import took 0,024207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000264 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2141798a4e89a9bf8c7f587cf0dfafa') in 0,013199 seconds 
+  Import took 0,024903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000235 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cee4c27af3ed7cc9eef7a7c99eed25') in 0,013740 seconds 
+  Import took 0,026765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000243 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ba7acbb9a196ed9db796def4479127') in 0,014432 seconds 
+  Import took 0,027350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000231 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d492fa1713b757e232f08e33290496c') in 0,014209 seconds 
+  Import took 0,026305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000239 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784bad40df8e5a959bfd6c98213b724f') in 0,014251 seconds 
+  Import took 0,025235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000319 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee86853ff7f4812718818cbff7b7cdb9') in 0,016546 seconds 
+  Import took 0,027878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000290 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b67386a7df49ae197d674e056cd862') in 0,014441 seconds 
+  Import took 0,026133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000232 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa11fb590cd5809ca416608aa07d51a') in 0,013093 seconds 
+  Import took 0,024553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17,037694 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8678a7cce917e4f6e3f20d1af7ef0') in 0,015104 seconds 
+  Import took 0,027537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000246 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebe088648d9b3afd057804af1db9662') in 0,014730 seconds 
+  Import took 0,025392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000226 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb99d029d5eb96dfe98327f8fadb083') in 0,014756 seconds 
+  Import took 0,025791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000237 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df42c8f3f48bdc7271414bf37ce45cc') in 0,014935 seconds 
+  Import took 0,025798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000303 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef768f642fac3c9ccb32697ad6ce298b') in 0,014380 seconds 
+  Import took 0,025068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000322 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7563fc4f50cf11d5a246212dd03cce1e') in 0,014215 seconds 
+  Import took 0,024980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb9ddd2b94c0f70439e33e5751fb44c') in 0,015587 seconds 
+  Import took 0,027296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000233 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d51a7c847119818a59cde2152c46ee') in 0,012221 seconds 
+  Import took 0,020744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000268 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc6a4cc18913fc3e0fa99563977b96') in 0,010638 seconds 
+  Import took 0,018731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000301 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504cf8d31f5c3ec1e577996acd8eef21') in 0,010962 seconds 
+  Import took 0,019862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,547513 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da909763caedf371811bbadd1209633') in 0,012629 seconds 
+  Import took 0,021920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000275 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a220221ff96f733eb448802eec4e52e') in 0,010454 seconds 
+  Import took 0,018107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000259 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094c300b0a369a0792cb9e107ab31a0') in 0,010547 seconds 
+  Import took 0,018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000267 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be70d469d7a381e26d9f9e38572c205') in 0,010636 seconds 
+  Import took 0,019031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000441 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c405165e356b4851265d0c73c7f1448f') in 0,010975 seconds 
+  Import took 0,018251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000262 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e2e630667a6099262e1713eca4b7b') in 0,010855 seconds 
+  Import took 0,018012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a52454d67b79f988602833e353b7ca') in 0,010743 seconds 
+  Import took 0,017844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000272 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b60fbd667ced12b4ffa884c058b8d0') in 0,010914 seconds 
+  Import took 0,018059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000246 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c14365251b99dfbdbe33b98ddd41ef8') in 0,012095 seconds 
+  Import took 0,020038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000268 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4f656cda3d27ea27cc18986a8a3bbc') in 0,011573 seconds 
+  Import took 0,019817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22,221450 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4d243570d384fd3e977eade3c7f96a') in 0,015080 seconds 
+  Import took 0,027748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000291 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea618a440f941478ddb10427f483be6c') in 0,014547 seconds 
+  Import took 0,025843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000286 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70b323014a3b73d797e84502d6c61b6') in 0,014329 seconds 
+  Import took 0,024350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000283 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e7d51718c0730a122f64958bcd3d22') in 0,067018 seconds 
+  Import took 0,075033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000245 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d7ff107f425c3c055bd2e9bc1d9a09') in 0,012480 seconds 
+  Import took 0,020876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000217 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727b3c5ae7e069ad6a652783e21240f4') in 0,015049 seconds 
+  Import took 0,026384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000246 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fe88bd1e247e84880dd6061211440b') in 0,014612 seconds 
+  Import took 0,025784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000249 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61082d0f54667e8d3c08a76f79cdf8a') in 0,014947 seconds 
+  Import took 0,026200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000244 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f41dc8256a85a0caba8a3c43956e4a') in 0,014401 seconds 
+  Import took 0,025209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000222 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67b7ab758e383a59b249e45c45e569a') in 0,014580 seconds 
+  Import took 0,025487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,603844 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350b96d03f979ba6a0c6a26dbd7ed0ac') in 0,011162 seconds 
+  Import took 0,020431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000202 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c7e21a3b41157823e2e24a747d8b6d') in 0,010525 seconds 
+  Import took 0,019675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000224 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8e0484a840fd858c090629b539268') in 0,014236 seconds 
+  Import took 0,025204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000227 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb32bd1798519061e1e92e03077093c8') in 0,077228 seconds 
+  Import took 0,087823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000691 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7880e07f8661e7bd8a817d507dfcb158') in 0,011562 seconds 
+  Import took 0,020629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000259 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924bd392e647ab1ad96bc9306bec9cc1') in 0,011372 seconds 
+  Import took 0,018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000221 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8e67b786e2ae4ffc4643fe88ff8fd3') in 0,011916 seconds 
+  Import took 0,020284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000274 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dabf801f50dd21a0bf66b9002605346') in 0,010771 seconds 
+  Import took 0,018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53915d7182ff28e4bf0ae8e30aa36cb') in 0,011694 seconds 
+  Import took 0,019424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000275 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0f678c1ccd73fbd9482a50d99b0b95') in 0,010587 seconds 
+  Import took 0,017679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,247794 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b759ec1b85cbd5b0449250f30553435') in 0,011806 seconds 
+  Import took 0,020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000248 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
+  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5571c3cf0756e94c1df819867ba8d') in 0,011992 seconds 
+  Import took 0,019693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000273 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
+  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b759ec1b85cbd5b0449250f30553435') in 0,009738 seconds 
+  Import took 0,017486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000234 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
+  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ca2eac995c02cee1c78864128276fd') in 0,010772 seconds 
+  Import took 0,018613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000263 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
+  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769db65ad5d44e519f2b3b53049e866c') in 0,060159 seconds 
+  Import took 0,070411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000208 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
+  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8022a0cfa74f5e28083e1bff66e03c') in 0,011067 seconds 
+  Import took 0,019883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000249 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
+  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e5dc68d2d3895ce70ac94a559aff5a') in 0,015031 seconds 
+  Import took 0,026152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
+  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2607f3508e4952ed832c16230342f97d') in 0,014388 seconds 
+  Import took 0,025748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000233 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
+  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c3b12593ed5b3244f312c51bc2cb37') in 0,014070 seconds 
+  Import took 0,025486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000218 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
+  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26e11c9b51f7d2ec989812879b778c1') in 0,014330 seconds 
+  Import took 0,025447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000252 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
+  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88d964ac50cf508459b7a075f85d808') in 0,014097 seconds 
+  Import took 0,024982 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2896ms)
+		BeginReloadAssembly (1133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1681ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (812ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (600ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0,99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,0 MB.
+System memory in use after: 136,0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3743.
+Total: 13,138579 ms (FindLiveObjects: 0,941162 ms CreateObjectMapping: 0,607147 ms MarkObjects: 11,098709 ms  DeleteObjects: 0,487809 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 219,531081 seconds.
   path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab
   artifactKey: Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91f206c8bc57b4688380621e936cb69') in 1,073740 seconds 
-  Import took 1,084761 seconds .
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030830f1fc98735adaf0c927af4e1eac') in 0,305174 seconds 
+  Import took 0,317475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000414 seconds.
+  Time since last request: 0,000387 seconds.
   path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
   artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdf293bb9d222f73d671065bf91f797') in 0,019515 seconds 
-  Import took 0,027374 seconds .
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83028b8fb0071eb5ad5471fc9b9c858c') in 0,026268 seconds 
+  Import took 0,034268 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000289 seconds.
+  Time since last request: 0,000262 seconds.
   path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab
   artifactKey: Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0895783f84e90f1adec0d8e22bd6ff2b') in 0,023621 seconds 
-  Import took 0,036890 seconds .
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c217b7140bdb5797b18ff4b392b28d08') in 0,027274 seconds 
+  Import took 0,036805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000320 seconds.
+  Time since last request: 0,000264 seconds.
   path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab
   artifactKey: Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81cb56f6d278d163336e0bd55a43791') in 0,024356 seconds 
-  Import took 0,035621 seconds .
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffb3b38259357164badd799b6273cb7') in 0,027799 seconds 
+  Import took 0,036894 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0,000235 seconds.
   path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab
   artifactKey: Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2834c4066cc8b74d3a081f0fe0457') in 0,022294 seconds 
-  Import took 0,032496 seconds .
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a24fe0afa196f8015a8397f0cc2ef5') in 0,018824 seconds 
+  Import took 0,029408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000285 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
+  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c6605d1dbc4dca6a4fa0b5012cffca') in 0,019996 seconds 
+  Import took 0,033035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000241 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
+  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0802af7cd2db22f2a0ef7ebbcb6219bf') in 0,033399 seconds 
+  Import took 0,044007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000258 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab
+  artifactKey: Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab using Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4105261b340ab159df0948496b82ca4d') in 0,019850 seconds 
+  Import took 0,030923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000238 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
+  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fc6e0f9fb6eefe19f9213ab42e18c9') in 0,029441 seconds 
+  Import took 0,041003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000233 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
+  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952136b558334c2d4cdb849c6b9edb29') in 0,030042 seconds 
+  Import took 0,042118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,713776 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_hardedge_01.fbx
+  artifactKey: Guid(81d416e6df60a409883e36e737111e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_hardedge_01.fbx using Guid(81d416e6df60a409883e36e737111e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2dbac79d5daa2fc757867bee5791a2') in 0,401078 seconds 
+  Import took 0,411560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000375 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Sphere_quad_02.fbx
+  artifactKey: Guid(904ffd68a1f154e67bf7139446188855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Sphere_quad_02.fbx using Guid(904ffd68a1f154e67bf7139446188855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9a6636bb67762f4d9ea5f2f9f768d3') in 0,017147 seconds 
+  Import took 0,025460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000318 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_hardedge_02.fbx
+  artifactKey: Guid(c11109c8df6dd4a539f9327bc6fcbdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_hardedge_02.fbx using Guid(c11109c8df6dd4a539f9327bc6fcbdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1506759a6018f981b8fc0583c8c72143') in 0,019383 seconds 
+  Import took 0,027801 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0,000211 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
-  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382ac985afedd6d926c2eb4b49188e89') in 0,025107 seconds 
-  Import took 0,037107 seconds .
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_hardedge_01.fbx
+  artifactKey: Guid(ec9d48e9ee84445e0bdc1347ddbe7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_hardedge_01.fbx using Guid(ec9d48e9ee84445e0bdc1347ddbe7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e6b6e0d620f09743ab18dd49cd41b9') in 0,018242 seconds 
+  Import took 0,025986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000223 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
-  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9e7b68dbdd3cd0229e61603a70d199') in 0,023387 seconds 
-  Import took 0,033526 seconds .
+  Time since last request: 0,000238 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_hardedge_02.fbx
+  artifactKey: Guid(0a85c15b3354845459689d0506e491e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_hardedge_02.fbx using Guid(0a85c15b3354845459689d0506e491e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d303804a84fbfd0446a0eee52800fc') in 0,022156 seconds 
+  Import took 0,032775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000243 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab
-  artifactKey: Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab using Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9687cb9b47fa3b06cb9a9413be970a66') in 0,021245 seconds 
-  Import took 0,031684 seconds .
+  Time since last request: 0,000203 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_roundedge_02.fbx
+  artifactKey: Guid(8d47c21380ec34f29a36640267576f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_roundedge_02.fbx using Guid(8d47c21380ec34f29a36640267576f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45dd3a825880503c64b6c3d9c1c5484') in 0,023314 seconds 
+  Import took 0,035505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000240 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
-  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2570a26bfd8dcd11624f4359da0969fa') in 0,018556 seconds 
-  Import took 0,028730 seconds .
+  Time since last request: 0,000233 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Sphere_quad_01.fbx
+  artifactKey: Guid(a55ddfe800b024199a2e9a39d36e2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Sphere_quad_01.fbx using Guid(a55ddfe800b024199a2e9a39d36e2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8624ef6bbc04e0b4608f5d092a2eda') in 0,021502 seconds 
+  Import took 0,032561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000211 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
-  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3df982fcc346dd7ba47973946c9259') in 0,018883 seconds 
-  Import took 0,026348 seconds .
+  Time since last request: 0,000234 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_roundedge_01.fbx
+  artifactKey: Guid(99c0d144cf4ed47a0a961a14b5a532c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cube_roundedge_01.fbx using Guid(99c0d144cf4ed47a0a961a14b5a532c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8939c74b4cd829a86a305b2ac66f4467') in 0,020532 seconds 
+  Import took 0,030790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39,290724 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab
-  artifactKey: Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2d5973998813f688bee870f7576a98') in 0,022357 seconds 
-  Import took 0,032921 seconds .
+  Time since last request: 0,000621 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_roundedge_02.fbx
+  artifactKey: Guid(280d05bb49d444affbfccdfb4e19a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_roundedge_02.fbx using Guid(280d05bb49d444affbfccdfb4e19a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947aa98d4b09d695e5896891bba2c82b') in 0,018603 seconds 
+  Import took 0,027196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000209 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947bd5691967096ef0b85bafef2dc68') in 0,020013 seconds 
-  Import took 0,028156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000272 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab
-  artifactKey: Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149573f2708dbbdeb988970095699396') in 0,023705 seconds 
-  Import took 0,032708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000255 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab
-  artifactKey: Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b054d18b3c99a94598851c34480d6dc5') in 0,019778 seconds 
-  Import took 0,028251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000261 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab
-  artifactKey: Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccd8f2a7390da000143c3929397a5e6') in 0,017488 seconds 
-  Import took 0,026895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000223 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
-  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f82e1026e5a0559e7472f2c8cc7a8e') in 0,019961 seconds 
-  Import took 0,028937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000246 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
-  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c677685def51c6897e760f13442aee7') in 0,018322 seconds 
-  Import took 0,028202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000280 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab
-  artifactKey: Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab using Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01875f1c840cd524082c6ce42fb73ea') in 0,018683 seconds 
-  Import took 0,026947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000396 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
-  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f6d9db784c934c1ad15e3310d3de82') in 0,024471 seconds 
-  Import took 0,037266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000276 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
-  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e84be933a79e10b8eb9fd465034475d') in 0,020124 seconds 
-  Import took 0,030518 seconds .
+  Time since last request: 0,000292 seconds.
+  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_roundedge_01.fbx
+  artifactKey: Guid(c4b8e6dc9963e42a89ac57738b7a5e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Models/Cylinder_roundedge_01.fbx using Guid(c4b8e6dc9963e42a89ac57738b7a5e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ae5974f851b644952ab33c9ec2385e') in 0,018244 seconds 
+  Import took 0,026222 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,006190 seconds.
+Registered in 0,005588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0,93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,673 seconds
+- Completed reload, in  5,627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2674ms)
-		BeginReloadAssembly (735ms)
+	ReloadAssembly (5628ms)
+		BeginReloadAssembly (3703ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (1838ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1828ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (517ms)
+			SetupTypeCache (505ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (854ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (884ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (638ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (644ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0,99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3153 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,6 MB.
-System memory in use after: 135,7 MB.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,6 MB.
+System memory in use after: 136,7 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3736.
-Total: 11,329437 ms (FindLiveObjects: 0,584848 ms CreateObjectMapping: 0,345945 ms MarkObjects: 10,114329 ms  DeleteObjects: 0,280608 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3787.
+Total: 17,988359 ms (FindLiveObjects: 0,710554 ms CreateObjectMapping: 0,312310 ms MarkObjects: 16,587274 ms  DeleteObjects: 0,374525 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -443,52 +1529,52 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,008131 seconds.
+Registered in 0,006062 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0,97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4,833 seconds
+- Completed reload, in  6,820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4834ms)
-		BeginReloadAssembly (2981ms)
+	ReloadAssembly (6820ms)
+		BeginReloadAssembly (5031ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (1761ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1693ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (487ms)
+			SetupTypeCache (478ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (827ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (810ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0,96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,6 MB.
-System memory in use after: 135,6 MB.
+System memory in use before: 136,6 MB.
+System memory in use after: 136,7 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3740.
-Total: 12,562035 ms (FindLiveObjects: 0,693758 ms CreateObjectMapping: 0,540352 ms MarkObjects: 10,802205 ms  DeleteObjects: 0,521787 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3791.
+Total: 14,178179 ms (FindLiveObjects: 0,703908 ms CreateObjectMapping: 0,364759 ms MarkObjects: 12,825540 ms  DeleteObjects: 0,280571 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -500,83 +1586,120 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 498,578317 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab
-  artifactKey: Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7b7c4a4a175322e0c063367dc0ad1e') in 0,317356 seconds 
-  Import took 0,328150 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5,433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5434ms)
+		BeginReloadAssembly (3454ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1858ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (551ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (844ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0,95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,9 MB.
+System memory in use after: 137,0 MB.
 
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3803.
+Total: 15,560777 ms (FindLiveObjects: 0,600619 ms CreateObjectMapping: 0,357251 ms MarkObjects: 14,265431 ms  DeleteObjects: 0,333925 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0,000345 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65156c358d7fabeded952c39c0ec45') in 0,018765 seconds 
-  Import took 0,030473 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2726ms)
+		BeginReloadAssembly (717ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1918ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137,0 MB.
+System memory in use after: 137,0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000238 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab
-  artifactKey: Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104bcd6d5a20c9c47ad5c38df883308c') in 0,019714 seconds 
-  Import took 0,032597 seconds .
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3807.
+Total: 10,295373 ms (FindLiveObjects: 0,600704 ms CreateObjectMapping: 0,416842 ms MarkObjects: 8,918686 ms  DeleteObjects: 0,356746 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000254 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab
-  artifactKey: Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9f923c16cb7b700ff58a45fb169344') in 0,019368 seconds 
-  Import took 0,032359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000297 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab
-  artifactKey: Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699a1d95a6fc1ece8166a3be2fb1228f') in 0,013753 seconds 
-  Import took 0,025137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000216 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
-  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d8dcaf4654694577e0143d2096eaed') in 0,018474 seconds 
-  Import took 0,028283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000211 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
-  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f591c90c717f6f0d1f56cf8cf6f4d7ec') in 0,018087 seconds 
-  Import took 0,029311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000287 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab
-  artifactKey: Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_granolabar_naturevalley.prefab using Guid(7ec41c4e5b2be4230b44e141f423c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd985b0400d55302e2aead4c5d63bc') in 0,018137 seconds 
-  Import took 0,027303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000519 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
-  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb8f513f60497149410e428442a542') in 0,014707 seconds 
-  Import took 0,024416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000239 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
-  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c8349faffea414c70646678b6a8bfc') in 0,013874 seconds 
-  Import took 0,021915 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
